@@ -1,0 +1,32 @@
+{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.1",
+
+  "parameters": {
+
+    "adminUserName":        { "value": "install"        },
+    "adminPassword":        { "value": "Install999!"       },
+
+    "cmUsername":           { "value": "cmadmin"        },
+    "cmPassword":           { "value": "cmadmin"        },
+
+    "storageAccountPrefix": { "value": "st"             },
+    "dnsNamePrefix":        { "value": "edh"            },
+
+    "vnetNewOrExisting":    { "value": "existing"                  },
+    "virtualNetworkRGName": { "value": "prod-edh-rg-gv-network"    },
+    "virtualNetworkName":   { "value": "prod-edh-vnet"             },
+    "subnetName":           { "value": "prod-edh-subnet-gv-appweb" },
+    "addressPrefix":        { "value": "10.0.0.0/16"               },
+    "subnetPrefix":         { "value": "10.0.2.0/26"               },
+    "masterNodeIPAddress":  { "value": "10.0.2.4"                  },
+    "numberOfDataNodes":    { "value": 3                },
+    "datanodeOffset":       { "value": 10               },
+
+    "tshirtSize":           { "value": "Eval"           },
+    "highAvailablily":      { "value": "Eval"           },
+    "vmSize":               { "value": "Standard_DS11"  },
+    "storageAccountType":   { "value": "Standard_LRS"   },
+
+  }
+}

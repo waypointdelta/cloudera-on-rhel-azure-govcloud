@@ -1,0 +1,6 @@
+1. hardcoded variables into [bootstrap-cloudera.sh]
+   company, emailaddress, businessphone, firstname, lastname, jobrole, jobfunction
+
+2. changed dataNodeIPOffSetFromMaster -> datanodeOffset
+
+3. add parameter "datanodeDisks":        { "value": 3                },

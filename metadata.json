@@ -1,0 +1,7 @@
+{
+  "itemDisplayName": "Cloudera Cluster",
+  "description": "This template deploys a multi VM Cloudera cluster, with one node running Cloudera Manager, two name nodes, and N data nodes.",
+  "summary": "This template deploys a multi VM Cloudera cluster on RHEL 6.8",
+  "githubUsername": "waypointdelta",
+  "dateUpdated": "2016-11-09"
+}
