@@ -30,7 +30,7 @@
     "installCDH":"True",
     "addressPrefix":"[parameters('addressPrefix')]",
     "subnetPrefix":"[parameters('subnetPrefix')]",
-    "scriptsUri": "file:///C:/cloudera-on-rhel-azure-govcloud",
+    "scriptsUri": "https://raw.githubusercontent.com/waypointdelta/cloudera-on-rhel-azure-govcloud/master",
     "share-resourcesUri": "[concat(variables('scriptsUri'), '/shared-resources-', parameters('vnetNewOrExisting'), '-vnet.json')]",
     "data-nodeUri":"[concat(variables('scriptsUri'), '/data-node-', toLower(subString(parameters('vmSize'), 9, 4)), '.json')]",
     "sa": "[parameters('masterNodeIPAddress')]",
