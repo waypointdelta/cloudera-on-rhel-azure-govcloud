@@ -316,7 +316,7 @@
             "caching": "ReadWrite",
             "createOption": "FromImage",
             "image": {
-              "uri": "https://storagetest.blob.core.usgovcloudapi.net/images/RHEL68-x86_64.vhd"
+              "uri": "http://storagetest.blob.core.usgovcloudapi.net/images/RHEL68-x86_64.vhd"
             },
             "vhd": {
               "uri": "[concat('http://', variables('storageAccountName'), copyIndex(), '.blob.core.usgovcloudapi.net/vhds/', variables('vmName'), copyIndex(), '.vhd')]"
